@@ -9,7 +9,7 @@ description: The box printer can be used to put content inside a box to highligh
 ## Basic Usage
 
 ```go
-// Some code
+pterm.DefaultBox.Println("Hello, World!")
 ```
 
 ## Options

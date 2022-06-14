@@ -9,7 +9,25 @@ description: The bar chart printer can be used to show data in relation to each 
 ## Basic Usage
 
 ```go
-// Some code
+positiveBars := pterm.Bars{
+	pterm.Bar{
+		Label: "Bar 1",
+		Value: 5,
+	},
+	pterm.Bar{
+		Label: "Bar 2",
+		Value: 3,
+	},
+	pterm.Bar{
+		Label: "Longer Label",
+		Value: 7,
+	},
+}
+
+pterm.Info.Println("Chart example with positive only values (bars use 100% of chart area)")
+
+pterm.DefaultBarChart.WithBars(positiveBars).Render()
+pterm.DefaultBarChart.WithHorizontal().WithBars(positiveBars).Render()
 ```
 
 ## Options

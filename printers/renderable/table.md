@@ -9,7 +9,11 @@ description: The table printer can be used to display structured data
 ## Basic Usage
 
 ```go
-// Some code
+pterm.DefaultTable.WithData(pterm.TableData{
+    {"Paul", "Dean", "nisi.dictum.augue@velitAliquam.co.uk"},
+    {"Callie", "Mckay", "egestas.nunc.sed@est.com"},
+    {"Libby", "Camacho", "aliquet.lobortis@semper.com"},
+}).Render()
 ```
 
 ## Options

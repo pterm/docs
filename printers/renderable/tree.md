@@ -9,7 +9,10 @@ description: The tree printer can be used to display a hierarchy
 ## Basic Usage
 
 ```go
-// Some code
+pterm.DefaultTree.WithRoot(putils.NewTreeFromLeveledList(pterm.LeveledList{
+    pterm.LeveledListItem{Level: 0, Text: "Hello, World!"}
+    pterm.LeveledListItem{Level: 1, Text: "Hello, World2!"}
+})).Render()
 ```
 
 ## Options

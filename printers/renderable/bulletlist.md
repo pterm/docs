@@ -9,7 +9,11 @@ description: The bullet list printer can be used to display a bullet list
 ## Basic Usage
 
 ```go
-// Some code
+pterm.DefaultBulletList.WithItems([]pterm.BulletListItem{
+    {Level: 0, Text: "Level 0"},
+    {Level: 1, Text: "Level 1"},
+    {Level: 2, Text: "Level 2"},
+}).Render()
 ```
 
 ## Options
