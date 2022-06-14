@@ -13,4 +13,4 @@ PTerm exposes a `RenderablePrinter` interface.
 | Method      | Description                                           |
 | ----------- | ----------------------------------------------------- |
 | `Render()`  | Prints to the terminal or uses the specified `Writer` |
-| `Srender()` | Returns a string                                      |
+| `Srender()` | Returns the rendered string                           |
