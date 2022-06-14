@@ -10,7 +10,7 @@ Make sure to run this command inside your project, when you’re using go module
 go get github.com/pterm/pterm
 ```
 
-### Write your first `Hello World` application with PTerm
+## Write Your First `Hello World` App With PTerm
 
 ```go
 package main
@@ -46,3 +46,30 @@ func main() {
 }
 ```
 
+## The 4 Printer Categories
+
+If you want to start with PTerm, you have to know the 4 printer categories.
+
+### Interactive Printers
+
+{% hint style="info" %}
+Interactive printers respond to user input. Similar to live printers, interactive printers can update their output. This allows the creation of interactive menus and queries. The `Show()` method shows the interactive prompt in the terminal.&#x20;
+{% endhint %}
+
+### Live Printers
+
+{% hint style="info" %}
+Live printers can update their output dynamically and are therefore well suited to display changing data like progress bars and live charts. They feature a `Start()` and `Stop()` method.
+{% endhint %}
+
+### Renderable Printers
+
+{% hint style="info" %}
+Renderable printers print text similarily to text printers, but they do not share the same functions as fmt. They have a `Render()` and `Srender()` function. This is because the output is to complex and the printer has to be configured to use specific data via options.
+{% endhint %}
+
+### Text Printers
+
+{% hint style="info" %}
+Text printers are printers, which can be used like the standard library's `fmt` package. They have functions, such as `Print()`, `Sprint()`, `Println()`, `Sprintln()`, `Printf()`, `Sprintf()`, `Printfln()`, `Sprintfln()`, etc.
+{% endhint %}
