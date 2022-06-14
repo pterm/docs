@@ -5,7 +5,7 @@ description: WORK IN PROGRESS
 # Interactive
 
 {% hint style="warning" %}
-Interactive printers are in progress and not released, yet.
+Interactive printers are not yet released.
 {% endhint %}
 
 {% hint style="info" %}
