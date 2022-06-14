@@ -14,13 +14,13 @@ pterm.DefaultSection.Println("Hello, World!")
 
 ## Options
 
-| Name              | Type        | Description                                          |
-| ----------------- | ----------- | ---------------------------------------------------- |
-| `TextStyle`       | `*Style`    | Style of the text                                    |
-| `BackgroundStyle` | `*Style`    | Style of the header background                       |
-| `Margin`          | `int`       | Empty space to the sides                             |
-| `FullWidth`       | `bool`      | Sets if the header should be as wide as the terminal |
-| `Writer`          | `io.Writer` | Sets a custom writer                                 |
+| Name            | Type        | Description                              |
+| --------------- | ----------- | ---------------------------------------- |
+| `Style`         | `*Style`    | Style of the text                        |
+| `Level`         | `int`       | The level of the section                 |
+| `TopPadding`    | `int`       | Empty space that should be printed above |
+| `BottomPadding` | `bool`      | Empty space that should be printed below |
+| `Writer`        | `io.Writer` | Sets a custom writer                     |
 
 ### Using Options
 
