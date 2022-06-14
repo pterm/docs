@@ -33,9 +33,10 @@ func main() {
 	// Print a big text to the terminal.
 	//          ┌ Use the default BigTextPrinter
 	//          │              ┌ Set the Letters option
-	//          │              │                   ┌ Generate Letters from string
-	//          │              │                   │                            ┌ Render output to the console
-	_ = pterm.DefaultBigText.WithLetters(pterm.NewLettersFromString("Hello")).Render()
+	//          |              |            ┌ Use the PTerm Utils (putils) package to create objects faster
+	//          │              │            |           ┌ Generate Letters from string
+	//          │              │            |           |                        ┌ Render output to the console
+	_ = pterm.DefaultBigText.WithLetters(putils.NewLettersFromString("Hello")).Render()
 
 	// ┌──────────────────────────────────────────────────────────┐
 	// │There are many more features, which are waiting for you :)│
