@@ -6,11 +6,11 @@
 ## 📚 Printers
 
 * [Interactive](printers/interactive.md)
-* [Live](printers/live/README.md)
+* [Live Printers](printers/live/README.md)
   * [Area](printers/live/area.md)
   * [Progressbar](printers/live/progressbar.md)
   * [Spinner](printers/live/spinner.md)
-* [Renderable](printers/renderable/README.md)
+* [Renderable Printers](printers/renderable/README.md)
   * [BarChart](printers/renderable/barchart.md)
   * [BigText](printers/renderable/bigtext.md)
   * [Box](printers/renderable/box.md)
@@ -18,7 +18,7 @@
   * [Panel](printers/renderable/panel.md)
   * [Table](printers/renderable/table.md)
   * [Tree](printers/renderable/tree.md)
-* [Text](printers/text/README.md)
+* [Text Printers](printers/text/README.md)
   * [BasicText](printers/text/basictext.md)
   * [Center](printers/text/center.md)
   * [Header](printers/text/header.md)
