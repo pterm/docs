@@ -37,8 +37,6 @@ pterm.DefaultBox.Println("Hello, World!")
 | `LeftPadding`             | `int`       |             |
 | `Writer`                  | `io.Writer` |             |
 
-a
-
 ### Using Options
 
 {% content-ref url="../../tutorials/using-printer-options.md" %}
