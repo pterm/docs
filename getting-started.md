@@ -64,6 +64,13 @@ If you need a printer, which a user can interact with, look here:
 [interactive.md](printers/interactive.md)
 {% endcontent-ref %}
 
+#### Can be used for
+
+* Select Menus
+* Confirm Prompts
+* User Text Input
+* ...
+
 ### Live Printers
 
 {% hint style="info" %}
@@ -75,6 +82,14 @@ If you need a printer, which can update its own content, look here:
 {% content-ref url="printers/live/" %}
 [live](printers/live/)
 {% endcontent-ref %}
+
+#### Can be used for
+
+* Live Performance Tracking
+* Visualizing Progress
+* Live Charts
+* Live System Stats
+* ....&#x20;
 
 ### Renderable Printers
 
@@ -88,6 +103,13 @@ If you need a printer, which prints complex output from some sort of data, look 
 [renderable](printers/renderable/)
 {% endcontent-ref %}
 
+#### Can be used for
+
+* Charts
+* Tables
+* Statistics
+* ...
+
 ### Text Printers
 
 {% hint style="info" %}
@@ -99,3 +121,11 @@ If you need a printer, which has a single text input, look here:
 {% content-ref url="printers/text/" %}
 [text](printers/text/)
 {% endcontent-ref %}
+
+#### Can be used for
+
+* Debug / Info / Warning / Error / ... Messages
+* Headers
+* Sections
+* Paragraphs
+* ...
