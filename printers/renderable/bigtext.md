@@ -27,13 +27,11 @@ pterm.DefaultBigText.WithLetters(
 
 ## Options
 
-| Name              | Type        | Description                                          |
-| ----------------- | ----------- | ---------------------------------------------------- |
-| `TextStyle`       | `*Style`    | Style of the text                                    |
-| `BackgroundStyle` | `*Style`    | Style of the header background                       |
-| `Margin`          | `int`       | Empty space to the sides                             |
-| `FullWidth`       | `bool`      | Sets if the header should be as wide as the terminal |
-| `Writer`          | `io.Writer` | Sets a custom writer                                 |
+| Name            | Type                | Description                                       |
+| --------------- | ------------------- | ------------------------------------------------- |
+| `BigCharacters` | `map[string]string` | Dictonary to convert normal letters into big ones |
+| `Letters`       | `Letters`           | Styled letters                                    |
+| `Writer`        | `io.Writer`         | Sets a custom writer                              |
 
 ### Using Options
 
