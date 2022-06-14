@@ -25,11 +25,12 @@ pterm.DefaultPanel.WithPanels(panels).Render()
 
 | Name              | Type        | Description                                          |
 | ----------------- | ----------- | ---------------------------------------------------- |
-| `TextStyle`       | `*Style`    | Style of the text                                    |
-| `BackgroundStyle` | `*Style`    | Style of the header background                       |
-| `Margin`          | `int`       | Empty space to the sides                             |
-| `FullWidth`       | `bool`      | Sets if the header should be as wide as the terminal |
-| `Writer`          | `io.Writer` | Sets a custom writer                                 |
+|	`Panels`          | `Panels` |   |
+|	`Padding`         | `int` |   |
+|	`BottomPadding`   | `int` |   |
+|	`SameColumnWidth` | `bool` |   |
+|	`BoxPrinter`      | `BoxPrinter` |   |
+|	`Writer`          | `io.Writer` |   |
 
 ### Using Options
 

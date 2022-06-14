@@ -20,11 +20,11 @@ pterm.DefaultBulletList.WithItems([]pterm.BulletListItem{
 
 | Name              | Type        | Description                                          |
 | ----------------- | ----------- | ---------------------------------------------------- |
-| `TextStyle`       | `*Style`    | Style of the text                                    |
-| `BackgroundStyle` | `*Style`    | Style of the header background                       |
-| `Margin`          | `int`       | Empty space to the sides                             |
-| `FullWidth`       | `bool`      | Sets if the header should be as wide as the terminal |
-| `Writer`          | `io.Writer` | Sets a custom writer                                 |
+|	`Items`       | `[]BulletListItem` |   |
+|	`TextStyle`   | `*Style` |   |
+|	`Bullet`      | `string` |   |
+|	`BulletStyle` | `*Style` |   |
+|	`Writer`      | `io.Writer` |   |
 
 ### Using Options
 

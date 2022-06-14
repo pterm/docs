@@ -19,11 +19,16 @@ pterm.DefaultTree.WithRoot(putils.NewTreeFromLeveledList(pterm.LeveledList{
 
 | Name              | Type        | Description                                          |
 | ----------------- | ----------- | ---------------------------------------------------- |
-| `TextStyle`       | `*Style`    | Style of the text                                    |
-| `BackgroundStyle` | `*Style`    | Style of the header background                       |
-| `Margin`          | `int`       | Empty space to the sides                             |
-| `FullWidth`       | `bool`      | Sets if the header should be as wide as the terminal |
-| `Writer`          | `io.Writer` | Sets a custom writer                                 |
+|	`Root`                 | `TreeNode` |   |
+|	`TreeStyle`            | `*Style` |   |
+|	`TextStyle`            | `*Style` |   |
+|	`TopRightCornerString` | `string` |   |
+|	`TopRightDownString`   | `string` |   |
+|	`HorizontalString`     | `string` |   |
+|	`VerticalString`       | `string` |   |
+|	`RightDownLeftString`  | `string` |   |
+|	`Indent`               | `int` |   |
+|	`Writer`               | `io.Writer` |   |
 
 ### Using Options
 
