@@ -29,6 +29,7 @@
 ## 💄 styling
 
 * [Color](styling/color.md)
+* [Themes](styling/themes.md)
 
 ## ✨ utils
 
