@@ -11,26 +11,28 @@ description: >-
 ## Basic Usage
 
 ```go
-pterm.DefaultBox.Println("Hello, World!")
+pterm.DefaultSpinner.Start()
+// do something...
+pterm.DefaultSpinner.Stop()
 ```
 
 ## Options
 
-| Name                      | Type        | Description |
-| ------------------------- | ----------- | ----------- |
-|	`Text`               | `string` |   |
-|	`Sequence`           | `[]string` |   |
-|	`Style`              | `*Style` |   |
-|	`Delay`              | `time.Duration` |   |
-|	`MessageStyle`       | `*Style` |   |
-|	`SuccessPrinter`     | `TextPrinter` |   |
-|	`FailPrinter`        | `TextPrinter` |   |
-|	`WarningPrinter`     | `TextPrinter` |   |
-|	`RemoveWhenDone`     | `bool` |   |
-|	`ShowTimer`          | `bool` |   |
-|	`TimerRoundingFactor`| `time.Duration` |   |
-|	`TimerStyle`         | `*Style` |   |
-|	`IsActive`           | `bool` |   |
+| Name                  | Type            | Description |
+| --------------------- | --------------- | ----------- |
+| `Text`                | `string`        |             |
+| `Sequence`            | `[]string`      |             |
+| `Style`               | `*Style`        |             |
+| `Delay`               | `time.Duration` |             |
+| `MessageStyle`        | `*Style`        |             |
+| `SuccessPrinter`      | `TextPrinter`   |             |
+| `FailPrinter`         | `TextPrinter`   |             |
+| `WarningPrinter`      | `TextPrinter`   |             |
+| `RemoveWhenDone`      | `bool`          |             |
+| `ShowTimer`           | `bool`          |             |
+| `TimerRoundingFactor` | `time.Duration` |             |
+| `TimerStyle`          | `*Style`        |             |
+| `IsActive`            | `bool`          |             |
 
 ### Using Options
 

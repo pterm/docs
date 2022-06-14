@@ -11,29 +11,32 @@ description: >-
 ## Basic Usage
 
 ```go
-pterm.DefaultBox.Println("Hello, World!")
+progressbar := pterm.DefaultProgressbar.WithTotal(totalSteps).Start()
+// Logic here
+progressbar.Increment()
+// More logic
 ```
 
 ## Options
 
-| Name                      | Type        | Description |
-| ------------------------- | ----------- | ----------- |
-|	`Title`                     | `string` |   |
-|	`Total`                     | `int` |   |
-|	`Current`                   | `int` |   |
-|	`BarCharacter`              | `string` |   |
-|	`LastCharacter`             | `string` |   |
-|	`ElapsedTimeRoundingFactor` | `time.Duration` |   |
-|	`BarFiller`                 | `string` |   |
-|	`MaxWidth`                  | `int` |   |
-|	`ShowElapsedTime`           | `bool` |   |
-|	`ShowCount`                 | `bool` |   |
-|	`ShowTitle`                 | `bool` |   |
-|	`ShowPercentage`            | `bool` |   |
-|	`RemoveWhenDone`            | `bool` |   |
-|	`TitleStyle`                | `*Style` |   |
-|	`BarStyle`                  | `*Style` |   |
-|	`IsActive`                  | `bool` |   |
+| Name                        | Type            | Description |
+| --------------------------- | --------------- | ----------- |
+| `Title`                     | `string`        |             |
+| `Total`                     | `int`           |             |
+| `Current`                   | `int`           |             |
+| `BarCharacter`              | `string`        |             |
+| `LastCharacter`             | `string`        |             |
+| `ElapsedTimeRoundingFactor` | `time.Duration` |             |
+| `BarFiller`                 | `string`        |             |
+| `MaxWidth`                  | `int`           |             |
+| `ShowElapsedTime`           | `bool`          |             |
+| `ShowCount`                 | `bool`          |             |
+| `ShowTitle`                 | `bool`          |             |
+| `ShowPercentage`            | `bool`          |             |
+| `RemoveWhenDone`            | `bool`          |             |
+| `TitleStyle`                | `*Style`        |             |
+| `BarStyle`                  | `*Style`        |             |
+| `IsActive`                  | `bool`          |             |
 
 ### Using Options
 
