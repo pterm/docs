@@ -6,9 +6,11 @@
 Make sure to run this command inside your project, when you’re using go modules 😉
 {% endhint %}
 
+{% code title="PTerm Installation Command" %}
 ```bash
 go get github.com/pterm/pterm
 ```
+{% endcode %}
 
 ## Write Your First `Hello World` App With PTerm
 
