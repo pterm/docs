@@ -21,6 +21,26 @@ pterm.DefaultBox.Println("Hello, World!")
 | `Margin`          | `int`       | Empty space to the sides                             |
 | `FullWidth`       | `bool`      | Sets if the header should be as wide as the terminal |
 | `Writer`          | `io.Writer` | Sets a custom writer                                 |
+|	`Title`                   | `string` |  |
+|	`TitleTopLeft`            | `bool` |  |
+|	`TitleTopRight`           | `bool` |  |
+|	`TitleTopCenter`          | `bool` |  |
+|	`TitleBottomLeft`         | `bool` |  |
+|	`TitleBottomRight`        | `bool` |  |
+|	`TitleBottomCenter`       | `bool` |  |
+|	`TextStyle`               | `*Style` |  |
+|	`VerticalString`          | `string` |  |
+|	`BoxStyle`                | `*Style` |  |
+|	`HorizontalString`        | `string` |  |
+|	`TopRightCornerString`    | `string` |  |
+|	`TopLeftCornerString`     | `string` |  |
+|	`BottomLeftCornerString`  | `string` |  |
+|	`BottomRightCornerString` | `string` |  |
+|	`TopPadding`              | `int` |  |
+|	`BottomPadding`           | `int` |  |
+|	`RightPadding`            | `int` |  |
+|	`LeftPadding`             | `int` |  |
+|	`Writer`                  | `io.Writer` |  |
 
 ### Using Options
 
