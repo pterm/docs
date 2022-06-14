@@ -44,13 +44,15 @@ This printer implements the `TextPrinter` interface.
 [.](./)
 {% endcontent-ref %}
 
-| Method                                       | Description                                                                                  |
-| -------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| `Sprint(a ...interface{})`                   | Returns a string                                                                             |
-| `Sprintln(a ...interface{})`                 | Returns a string with a new line at the end                                                  |
-| `Sprintf(format string, a ...interface{})`   | Returns a string, formatted according to a format specifier                                  |
-| `Sprintfln(format string, a ...interface{})` | Returns a string, formatted according to a format specifier with a new line at the end       |
-| `Print(a ...interface{})`                    | Prints to the terminal                                                                       |
-| `Println(a ...interface{})`                  | Prints to the terminal with a new line at the end                                            |
-| `Printf(format string, a ...interface{})`    | Prints to the terminal, formatted according to a format specifier                            |
-| `Printfln(format string, a ...interface{})`  | Prints to the terminal, formatted according to a format specifier with a new line at the end |
+| Method                                           | Description                                                                                                                                   |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Sprint(a ...interface{})`                       | Returns a string                                                                                                                              |
+| `Sprintln(a ...interface{})`                     | Returns a string with a new line at the end                                                                                                   |
+| `Sprintf(format string, a ...interface{})`       | Returns a string, formatted according to a format specifier                                                                                   |
+| `Sprintfln(format string, a ...interface{})`     | Returns a string, formatted according to a format specifier with a new line at the end                                                        |
+| `Print(a ...interface{})`                        | Prints to the terminal (or specified custom `Writer`)                                                                                         |
+| `Println(a ...interface{})`                      | Prints to the terminal (or specified custom `Writer`) with a new line at the end                                                              |
+| `Printf(format string, a ...interface{})`        | Prints to the terminal (or specified custom `Writer`), formatted according to a format specifier                                              |
+| `Printfln(format string, a ...interface{})`      | Prints to the terminal (or specified custom `Writer`), formatted according to a format specifier with a new line at the end                   |
+| `PrintOnError(a ...interface{})`                 | Prints every error which is not nil. If every error is nil, nothing will be printed. This can be used for simple error checking.              |
+| `PrintOnErrorf(format string, a ...interface{})` | Wraps every error which is not nil and prints it. If every error is nil, nothing will be printed. This can be used for simple error checking. |
