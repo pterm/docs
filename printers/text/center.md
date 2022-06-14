@@ -9,7 +9,7 @@ description: The center printer can be used to center text in the terminal
 ## Basic Usage
 
 ```go
-pterm.DefaultHeader.Println("Hello, World!")
+pterm.DefaultCenter.Println("Hello, World!")
 ```
 
 ## Options

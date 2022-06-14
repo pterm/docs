@@ -9,7 +9,7 @@ description: The basic text printer can be used to print plain text
 ## Basic Usage
 
 ```go
-pterm.DefaultHeader.Println("Hello, World!")
+pterm.DefaultBasicText.Println("Hello, World!")
 ```
 
 ## Options

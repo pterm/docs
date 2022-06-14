@@ -9,7 +9,7 @@ description: The section printer can be used to separate sections
 ## Basic Usage
 
 ```go
-pterm.DefaultHeader.Println("Hello, World!")
+pterm.DefaultSection.Println("Hello, World!")
 ```
 
 ## Options

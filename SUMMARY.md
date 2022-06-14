@@ -35,7 +35,7 @@
 
 * [PTerm Utils Package (putils)](utils/putils.md)
 
-## 🧑🏫 Tutorials
+## 🧑🏫 🧑🏫 Tutorials
 
 * [Using Printer Options](tutorials/using-printer-options.md)
 

@@ -9,7 +9,7 @@ description: The paragraph printer can be used to write long paragraphs with wor
 ## Basic Usage
 
 ```go
-pterm.DefaultHeader.Println("Hello, World!")
+pterm.DefaultParagraph.Println("Hello, World!")
 ```
 
 ## Options

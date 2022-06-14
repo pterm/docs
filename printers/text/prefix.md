@@ -9,7 +9,13 @@ description: The prefix printer can be used to display prefixed messages
 ## Basic Usage
 
 ```go
-pterm.DefaultHeader.Println("Hello, World!")
+pterm.Debug.Println("Hello, World!")                                                // Print Debug.
+pterm.Info.Println("Hello, World!")                                                 // Print Info.
+pterm.Success.Println("Hello, World!")                                              // Print Success.
+pterm.Warning.Println("Hello, World!")                                              // Print Warning.
+pterm.Error.Println("Errors show the filename and linenumber inside the terminal!") // Print Error.
+pterm.Info.WithShowLineNumber().Println("Other PrefixPrinters can do that too!")    // Print Error.
+pterm.Fatal.Println("Hello, World!")                                                // Print Fatal.
 ```
 
 ## Options
