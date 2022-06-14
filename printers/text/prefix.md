@@ -9,24 +9,26 @@ description: The prefix printer can be used to display prefixed messages
 ## Basic Usage
 
 ```go
-pterm.Debug.Println("Hello, World!")                                                // Print Debug.
-pterm.Info.Println("Hello, World!")                                                 // Print Info.
-pterm.Success.Println("Hello, World!")                                              // Print Success.
-pterm.Warning.Println("Hello, World!")                                              // Print Warning.
-pterm.Error.Println("Errors show the filename and linenumber inside the terminal!") // Print Error.
-pterm.Info.WithShowLineNumber().Println("Other PrefixPrinters can do that too!")    // Print Error.
-pterm.Fatal.Println("Hello, World!")                                                // Print Fatal.
+pterm.Debug.Println("Hello, World!") // Print Debug.
+pterm.Info.Println("Hello, World!") // Print Info.
+pterm.Success.Println("Hello, World!") // Print Success.
+pterm.Warning.Println("Hello, World!") // Print Warning.
+pterm.Error.Println("Hello, World!") // Print Error.
+pterm.Fatal.Println("Hello, World!") // Print Fatal.                                             // Print Fatal.
 ```
 
 ## Options
 
-| Name              | Type        | Description                                          |
-| ----------------- | ----------- | ---------------------------------------------------- |
-| `TextStyle`       | `*Style`    | Style of the text                                    |
-| `BackgroundStyle` | `*Style`    | Style of the header background                       |
-| `Margin`          | `int`       | Empty space to the sides                             |
-| `FullWidth`       | `bool`      | Sets if the header should be as wide as the terminal |
-| `Writer`          | `io.Writer` | Sets a custom writer                                 |
+| Name               | Type        | Description                                                                             |
+| ------------------ | ----------- | --------------------------------------------------------------------------------------- |
+| `Prefix`           | `Prefix`    | The styled prefix that should be used in front of messages                              |
+| `Scope`            | `Scope`     | The optional scope that should be used when printing                                    |
+| `MessageStyle`     | `*Style`    | The style of the message                                                                |
+| `Debugger`         | `bool`      | Sets if the prefix printer should only print when PTerm's debug mode is active          |
+| `Fatal`            | `bool`      | Sets if the prefix printer should stop the program                                      |
+| `ShowLineNumber`   | `bool`      | Sets if the prefix printer should display the file and line number, where it was called |
+| `LineNumberOffset` | `int`       | Sets how many steps in the stack trace should be ignored                                |
+| `Writer`           | `io.Writer` | Sets a custom writer                                                                    |
 
 ### Using Options
 
