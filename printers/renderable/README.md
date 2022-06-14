@@ -10,7 +10,7 @@ Renderable printers print text similarily to text printers, but they do not shar
 PTerm exposes a `RenderablePrinter` interface.
 {% endhint %}
 
-| Function    | Description                                           |
+| Method      | Description                                           |
 | ----------- | ----------------------------------------------------- |
 | `Render()`  | Prints to the terminal or uses the specified `Writer` |
 | `Srender()` | Returns a string                                      |

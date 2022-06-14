@@ -10,7 +10,7 @@ Interface
 PTerm exposes a `LivePrinter` interface.
 {% endhint %}
 
-| Function         | Description                                  |
+| Method           | Description                                  |
 | ---------------- | -------------------------------------------- |
 | `Start()`        | Returns itself and errors                    |
 | `Stop()`         | Returns itself and errors                    |
