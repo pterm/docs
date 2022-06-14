@@ -35,6 +35,10 @@
 
 * [PTerm Utils Package (putils)](utils/putils.md)
 
+## 🧑🏫 Tutorials
+
+* [Using Printer Options](tutorials/using-printer-options.md)
+
 ## 💙 Contributing
 
 * [Contributing Code](contributing/contributing-code.md)
