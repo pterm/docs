@@ -18,13 +18,13 @@ pterm.DefaultBulletList.WithItems([]pterm.BulletListItem{
 
 ## Options
 
-| Name              | Type        | Description                                          |
-| ----------------- | ----------- | ---------------------------------------------------- |
-|	`Items`       | `[]BulletListItem` |   |
-|	`TextStyle`   | `*Style` |   |
-|	`Bullet`      | `string` |   |
-|	`BulletStyle` | `*Style` |   |
-|	`Writer`      | `io.Writer` |   |
+| Name          | Type               | Description |
+| ------------- | ------------------ | ----------- |
+| `Items`       | `[]BulletListItem` |             |
+| `TextStyle`   | `*Style`           |             |
+| `Bullet`      | `string`           |             |
+| `BulletStyle` | `*Style`           |             |
+| `Writer`      | `io.Writer`        |             |
 
 ### Using Options
 
@@ -37,6 +37,10 @@ pterm.DefaultBulletList.WithItems([]pterm.BulletListItem{
 {% hint style="info" %}
 This printer implements the `RenderablePrinter` interface.
 {% endhint %}
+
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
 
 | Method      | Description                                           |
 | ----------- | ----------------------------------------------------- |

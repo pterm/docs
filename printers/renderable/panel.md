@@ -23,14 +23,14 @@ pterm.DefaultPanel.WithPanels(panels).Render()
 
 ## Options
 
-| Name              | Type        | Description                                          |
-| ----------------- | ----------- | ---------------------------------------------------- |
-|	`Panels`          | `Panels` |   |
-|	`Padding`         | `int` |   |
-|	`BottomPadding`   | `int` |   |
-|	`SameColumnWidth` | `bool` |   |
-|	`BoxPrinter`      | `BoxPrinter` |   |
-|	`Writer`          | `io.Writer` |   |
+| Name              | Type         | Description |
+| ----------------- | ------------ | ----------- |
+| `Panels`          | `Panels`     |             |
+| `Padding`         | `int`        |             |
+| `BottomPadding`   | `int`        |             |
+| `SameColumnWidth` | `bool`       |             |
+| `BoxPrinter`      | `BoxPrinter` |             |
+| `Writer`          | `io.Writer`  |             |
 
 ### Using Options
 
@@ -43,6 +43,10 @@ pterm.DefaultPanel.WithPanels(panels).Render()
 {% hint style="info" %}
 This printer implements the `RenderablePrinter` interface.
 {% endhint %}
+
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
 
 | Method      | Description                                           |
 | ----------- | ----------------------------------------------------- |

@@ -18,22 +18,22 @@ pterm.DefaultTable.WithData(pterm.TableData{
 
 ## Options
 
-| Name              | Type        | Description                                          |
-| ----------------- | ----------- | ---------------------------------------------------- |
-|	`Style`                  | `*Style` |   |
-|	`HasHeader`              | `bool` |   |
-|	`HeaderStyle`            | `*Style` |   |
-|	`HeaderRowSeparator`     | `string` |   |
-|	`HeaderRowSeparatorStyle`| `*Style` |   |
-|	`Separator`              | `string` |   |
-|	`SeparatorStyle`         | `*Style` |   |
-|	`RowSeparator`           | `string` |   |
-|	`RowSeparatorStyle`      | `*Style` |   |
-|	`Data`                   | `TableData` |   |
-|	`Boxed`                  | `bool` |   |
-|	`LeftAlignment`          | `bool` |   |
-|	`RightAlignment`         | `bool` |   |
-|	`Writer`                 | `io.Writer` |   |
+| Name                      | Type        | Description |
+| ------------------------- | ----------- | ----------- |
+| `Style`                   | `*Style`    |             |
+| `HasHeader`               | `bool`      |             |
+| `HeaderStyle`             | `*Style`    |             |
+| `HeaderRowSeparator`      | `string`    |             |
+| `HeaderRowSeparatorStyle` | `*Style`    |             |
+| `Separator`               | `string`    |             |
+| `SeparatorStyle`          | `*Style`    |             |
+| `RowSeparator`            | `string`    |             |
+| `RowSeparatorStyle`       | `*Style`    |             |
+| `Data`                    | `TableData` |             |
+| `Boxed`                   | `bool`      |             |
+| `LeftAlignment`           | `bool`      |             |
+| `RightAlignment`          | `bool`      |             |
+| `Writer`                  | `io.Writer` |             |
 
 ### Using Options
 
@@ -46,6 +46,10 @@ pterm.DefaultTable.WithData(pterm.TableData{
 {% hint style="info" %}
 This printer implements the `RenderablePrinter` interface.
 {% endhint %}
+
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
 
 | Method      | Description                                           |
 | ----------- | ----------------------------------------------------- |

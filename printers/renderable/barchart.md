@@ -57,6 +57,10 @@ pterm.DefaultBarChart.WithHorizontal().WithBars(positiveBars).Render()
 This printer implements the `RenderablePrinter` interface.
 {% endhint %}
 
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
+
 | Method      | Description                                           |
 | ----------- | ----------------------------------------------------- |
 | `Render()`  | Prints to the terminal or uses the specified `Writer` |

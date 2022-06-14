@@ -17,18 +17,18 @@ pterm.DefaultTree.WithRoot(putils.NewTreeFromLeveledList(pterm.LeveledList{
 
 ## Options
 
-| Name              | Type        | Description                                          |
-| ----------------- | ----------- | ---------------------------------------------------- |
-|	`Root`                 | `TreeNode` |   |
-|	`TreeStyle`            | `*Style` |   |
-|	`TextStyle`            | `*Style` |   |
-|	`TopRightCornerString` | `string` |   |
-|	`TopRightDownString`   | `string` |   |
-|	`HorizontalString`     | `string` |   |
-|	`VerticalString`       | `string` |   |
-|	`RightDownLeftString`  | `string` |   |
-|	`Indent`               | `int` |   |
-|	`Writer`               | `io.Writer` |   |
+| Name                   | Type        | Description |
+| ---------------------- | ----------- | ----------- |
+| `Root`                 | `TreeNode`  |             |
+| `TreeStyle`            | `*Style`    |             |
+| `TextStyle`            | `*Style`    |             |
+| `TopRightCornerString` | `string`    |             |
+| `TopRightDownString`   | `string`    |             |
+| `HorizontalString`     | `string`    |             |
+| `VerticalString`       | `string`    |             |
+| `RightDownLeftString`  | `string`    |             |
+| `Indent`               | `int`       |             |
+| `Writer`               | `io.Writer` |             |
 
 ### Using Options
 
@@ -41,6 +41,10 @@ pterm.DefaultTree.WithRoot(putils.NewTreeFromLeveledList(pterm.LeveledList{
 {% hint style="info" %}
 This printer implements the `RenderablePrinter` interface.
 {% endhint %}
+
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
 
 | Method      | Description                                           |
 | ----------- | ----------------------------------------------------- |
