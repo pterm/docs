@@ -32,13 +32,18 @@ pterm.DefaultBarChart.WithHorizontal().WithBars(positiveBars).Render()
 
 ## Options
 
-| Name              | Type        | Description                                          |
-| ----------------- | ----------- | ---------------------------------------------------- |
-| `TextStyle`       | `*Style`    | Style of the text                                    |
-| `BackgroundStyle` | `*Style`    | Style of the header background                       |
-| `Margin`          | `int`       | Empty space to the sides                             |
-| `FullWidth`       | `bool`      | Sets if the header should be as wide as the terminal |
-| `Writer`          | `io.Writer` | Sets a custom writer                                 |
+| Name                   | Type        | Description             |
+| ---------------------- | ----------- | ----------------------- |
+| `Root`                 | `TreeNode`  | The structured tree     |
+| `TreeStyle`            | `*Style`    | Style of the tree       |
+| `TextStyle`            | `*Style`    | Style of the text       |
+| `TopRightCornerString` | `string`    | Top right corner string |
+| TopRightDownString     | `string`    | Top right down string   |
+| HorizontalString       | `string`    | Horizontal string       |
+| VerticalString         | `string`    | Vertical string         |
+| RightDownLeftString    | `string`    | Right down left string  |
+| Indent                 | `int`       | Space between levels    |
+| `Writer`               | `io.Writer` | Sets a custom writer    |
 
 ### Using Options
 
