@@ -24,9 +24,9 @@ pterm.DefaultHeader.Println("Hello, World!")
 
 ### Using Options
 
-To make a copy with modified options, you can use: `pterm.DefaultHeader.WithOptionName(option)`
-
-To change multiple options at once, you can chain the functions: `pterm.DefaultHeader.WithOptionName(option).WithOptionName2(option2)...`
+{% content-ref url="../../tutorials/using-printer-options.md" %}
+[using-printer-options.md](../../tutorials/using-printer-options.md)
+{% endcontent-ref %}
 
 ## Methods
 
@@ -37,8 +37,6 @@ This printer implements the `TextPrinter` interface.
 {% content-ref url="./" %}
 [.](./)
 {% endcontent-ref %}
-
-
 
 | Method                                       | Description                                                                                  |
 | -------------------------------------------- | -------------------------------------------------------------------------------------------- |
