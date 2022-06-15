@@ -18,22 +18,22 @@ pterm.DefaultTable.WithData(pterm.TableData{
 
 ## Options
 
-| Name                      | Type        | Description |
-| ------------------------- | ----------- | ----------- |
-| `Style`                   | `*Style`    |             |
-| `HasHeader`               | `bool`      |             |
-| `HeaderStyle`             | `*Style`    |             |
-| `HeaderRowSeparator`      | `string`    |             |
-| `HeaderRowSeparatorStyle` | `*Style`    |             |
-| `Separator`               | `string`    |             |
-| `SeparatorStyle`          | `*Style`    |             |
-| `RowSeparator`            | `string`    |             |
-| `RowSeparatorStyle`       | `*Style`    |             |
-| `Data`                    | `TableData` |             |
-| `Boxed`                   | `bool`      |             |
-| `LeftAlignment`           | `bool`      |             |
-| `RightAlignment`          | `bool`      |             |
-| `Writer`                  | `io.Writer` |             |
+| Name                      | Type        | Description                                           |
+| ------------------------- | ----------- | ----------------------------------------------------- |
+| `Style`                   | `*Style`    | Style of the table                                    |
+| `HasHeader`               | `bool`      | Sets if the table has a headline                      |
+| `HeaderStyle`             | `*Style`    | Style of the table headline                           |
+| `HeaderRowSeparator`      | `string`    | Row separator in the table headline                   |
+| `HeaderRowSeparatorStyle` | `*Style`    | Style of the headline row separator                   |
+| `Separator`               | `string`    | Character which is used to separate columns           |
+| `SeparatorStyle`          | `*Style`    | Style for the separator                               |
+| `RowSeparator`            | `string`    | Character which is used to separate rows              |
+| `RowSeparatorStyle`       | `*Style`    | Style for the row separator                           |
+| `Data`                    | `TableData` | The table content                                     |
+| `Boxed`                   | `bool`      | Sets if the table should be printed with a border box |
+| `LeftAlignment`           | `bool`      | Sets if the text should be aligned to the left        |
+| `RightAlignment`          | `bool`      | Sets if the text should be aligned to the right       |
+| `Writer`                  | `io.Writer` | Custom output writer                                  |
 
 ### Using Options
 

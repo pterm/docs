@@ -17,18 +17,18 @@ pterm.DefaultTree.WithRoot(putils.NewTreeFromLeveledList(pterm.LeveledList{
 
 ## Options
 
-| Name                   | Type        | Description |
-| ---------------------- | ----------- | ----------- |
-| `Root`                 | `TreeNode`  |             |
-| `TreeStyle`            | `*Style`    |             |
-| `TextStyle`            | `*Style`    |             |
-| `TopRightCornerString` | `string`    |             |
-| `TopRightDownString`   | `string`    |             |
-| `HorizontalString`     | `string`    |             |
-| `VerticalString`       | `string`    |             |
-| `RightDownLeftString`  | `string`    |             |
-| `Indent`               | `int`       |             |
-| `Writer`               | `io.Writer` |             |
+| Name                   | Type        | Description                           |
+| ---------------------- | ----------- | ------------------------------------- |
+| `Root`                 | `TreeNode`  | The structured tree                   |
+| `TreeStyle`            | `*Style`    | Style of the tree                     |
+| `TextStyle`            | `*Style`    | Style of the text                     |
+| `TopRightCornerString` | `string`    | Top right corner string               |
+| `TopRightDownString`   | `string`    | Top right down string                 |
+| `HorizontalString`     | `string`    | Horizontal line string                |
+| `VerticalString`       | `string`    | Vertical line string                  |
+| `RightDownLeftString`  | `string`    | Right down left string                |
+| `Indent`               | `int`       | How much the items should be indented |
+| `Writer`               | `io.Writer` | Custom output writer                  |
 
 ### Using Options
 

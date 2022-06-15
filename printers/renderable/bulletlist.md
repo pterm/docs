@@ -18,13 +18,13 @@ pterm.DefaultBulletList.WithItems([]pterm.BulletListItem{
 
 ## Options
 
-| Name          | Type               | Description |
-| ------------- | ------------------ | ----------- |
-| `Items`       | `[]BulletListItem` |             |
-| `TextStyle`   | `*Style`           |             |
-| `Bullet`      | `string`           |             |
-| `BulletStyle` | `*Style`           |             |
-| `Writer`      | `io.Writer`        |             |
+| Name          | Type               | Description                                               |
+| ------------- | ------------------ | --------------------------------------------------------- |
+| `Items`       | `[]BulletListItem` | Items of the bullet list                                  |
+| `TextStyle`   | `*Style`           | Style of the text                                         |
+| `Bullet`      | `string`           | Character that is used in front of the items              |
+| `BulletStyle` | `*Style`           | Style of the character that is used in front of the items |
+| `Writer`      | `io.Writer`        | Custom output writer                                      |
 
 ### Using Options
 

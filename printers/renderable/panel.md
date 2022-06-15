@@ -23,14 +23,14 @@ pterm.DefaultPanel.WithPanels(panels).Render()
 
 ## Options
 
-| Name              | Type         | Description |
-| ----------------- | ------------ | ----------- |
-| `Panels`          | `Panels`     |             |
-| `Padding`         | `int`        |             |
-| `BottomPadding`   | `int`        |             |
-| `SameColumnWidth` | `bool`       |             |
-| `BoxPrinter`      | `BoxPrinter` |             |
-| `Writer`          | `io.Writer`  |             |
+| Name              | Type         | Description                                                                          |
+| ----------------- | ------------ | ------------------------------------------------------------------------------------ |
+| `Panels`          | `Panels`     | The different panels which should be printed                                         |
+| `Padding`         | `int`        | Padding to the side of the panels                                                    |
+| `BottomPadding`   | `int`        | Padding to the bottom of the panels                                                  |
+| `SameColumnWidth` | `bool`       | Sets if every panel should have the same column width                                |
+| `BoxPrinter`      | `BoxPrinter` | Sets a box printer, which the panel printer should use to add a border to the panels |
+| `Writer`          | `io.Writer`  | Custom output writer                                                                 |
 
 ### Using Options
 
