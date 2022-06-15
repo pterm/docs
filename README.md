@@ -38,7 +38,7 @@ pterm.Success.Println("Hello, World!")                                          
 pterm.Warning.Println("Hello, World!")                                              // Print Warning.
 pterm.Error.Println("Errors show the filename and linenumber inside the terminal!") // Print Error.
 pterm.Info.WithShowLineNumber().Println("Other PrefixPrinters can do that too!")    // Print Error.
-pterm.Fatal.WithFatal(false).Println("Hello, World!") // Print Fatal.
+pterm.Fatal.Println("Hello, World!") // Print Fatal.
 ```
 
 ![](<.gitbook/assets/image (1).png>)
