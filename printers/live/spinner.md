@@ -42,6 +42,13 @@ pterm.DefaultSpinner.Stop()
 
 ## Methods
 
+| Name                  | Description                                |
+| --------------------- | ------------------------------------------ |
+| `Fail(message)`       | Lets the spinner fail and prints a message |
+| `Success(message)`    | Prints a success message                   |
+| `Warning(message)`    | Prints a warning message                   |
+| `UpdateText(message)` | Updates the spinner text                   |
+
 {% hint style="info" %}
 This printer implements the `LivePrinter` interface.
 {% endhint %}

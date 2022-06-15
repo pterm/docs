@@ -35,6 +35,12 @@ area.Stop()
 
 ## Methods
 
+| Name                          | Description                             |
+| ----------------------------- | --------------------------------------- |
+| `Clear()`                     | Clears the content of the area          |
+| `GetContent()`                | Returns the current content of the area |
+| `Update(text ...interface{})` | Updates the content of the area         |
+
 {% hint style="info" %}
 This printer implements the `LivePrinter` interface.
 {% endhint %}

@@ -46,6 +46,13 @@ progressbar.Increment()
 
 ## Methods
 
+| Name               | Description                                                                       |
+| ------------------ | --------------------------------------------------------------------------------- |
+| `Add(count int)`   | Adds `count` to the current progress                                              |
+| `GetElapsedTime()` | Returns the duration since the progress bar was started                           |
+| `Increment()`      | Adds `1` to the current progress - you can call this function when a step is done |
+| `UpdateTitle()`    | Updates and re-renders the title of the progress bar                              |
+
 {% hint style="info" %}
 This printer implements the `LivePrinter` interface.
 {% endhint %}
