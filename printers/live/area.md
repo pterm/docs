@@ -21,11 +21,11 @@ area.Stop()
 
 ## Options
 
-| Name             | Type   | Description |
-| ---------------- | ------ | ----------- |
-| `RemoveWhenDone` | `bool` |             |
-| `Fullscreen`     | `bool` |             |
-| `Center`         | `bool` |             |
+| Name             | Type   | Description                                                |
+| ---------------- | ------ | ---------------------------------------------------------- |
+| `RemoveWhenDone` | `bool` | Sets if the area should be removed when `Stop()` is called |
+| `Fullscreen`     | `bool` | Sets if the area should be the same size as the terminal   |
+| `Center`         | `bool` | Sets if the content of the area should be centered         |
 
 ### Using Options
 

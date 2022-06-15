@@ -18,21 +18,21 @@ pterm.DefaultSpinner.Stop()
 
 ## Options
 
-| Name                  | Type            | Description |
-| --------------------- | --------------- | ----------- |
-| `Text`                | `string`        |             |
-| `Sequence`            | `[]string`      |             |
-| `Style`               | `*Style`        |             |
-| `Delay`               | `time.Duration` |             |
-| `MessageStyle`        | `*Style`        |             |
-| `SuccessPrinter`      | `TextPrinter`   |             |
-| `FailPrinter`         | `TextPrinter`   |             |
-| `WarningPrinter`      | `TextPrinter`   |             |
-| `RemoveWhenDone`      | `bool`          |             |
-| `ShowTimer`           | `bool`          |             |
-| `TimerRoundingFactor` | `time.Duration` |             |
-| `TimerStyle`          | `*Style`        |             |
-| `IsActive`            | `bool`          |             |
+| Name                  | Type            | Description                                                   |
+| --------------------- | --------------- | ------------------------------------------------------------- |
+| `Text`                | `string`        | Message of the spinner                                        |
+| `Sequence`            | `[]string`      | The spinner animation steps                                   |
+| `Style`               | `*Style`        | Style of the spinner                                          |
+| `Delay`               | `time.Duration` | Delay between animation steps                                 |
+| `MessageStyle`        | `*Style`        | Style of the message                                          |
+| `SuccessPrinter`      | `TextPrinter`   | Printer that is used when `Success()` is called               |
+| `FailPrinter`         | `TextPrinter`   | Printer that is used when `Fail()` is called                  |
+| `WarningPrinter`      | `TextPrinter`   | Printer that is used when `Warning()` is called               |
+| `RemoveWhenDone`      | `bool`          | Sets if the spinner should be removed when `Stop()` is called |
+| `ShowTimer`           | `bool`          | Sets if the timer should be displayed                         |
+| `TimerRoundingFactor` | `time.Duration` | Rounding factor of the timer (seconds, milliseconds, etc.)    |
+| `TimerStyle`          | `*Style`        | Style of the timer                                            |
+| `IsActive`            | `bool`          | True when the spinner was started, but not yet stopped        |
 
 ### Using Options
 

@@ -19,24 +19,24 @@ progressbar.Increment()
 
 ## Options
 
-| Name                        | Type            | Description |
-| --------------------------- | --------------- | ----------- |
-| `Title`                     | `string`        |             |
-| `Total`                     | `int`           |             |
-| `Current`                   | `int`           |             |
-| `BarCharacter`              | `string`        |             |
-| `LastCharacter`             | `string`        |             |
-| `ElapsedTimeRoundingFactor` | `time.Duration` |             |
-| `BarFiller`                 | `string`        |             |
-| `MaxWidth`                  | `int`           |             |
-| `ShowElapsedTime`           | `bool`          |             |
-| `ShowCount`                 | `bool`          |             |
-| `ShowTitle`                 | `bool`          |             |
-| `ShowPercentage`            | `bool`          |             |
-| `RemoveWhenDone`            | `bool`          |             |
-| `TitleStyle`                | `*Style`        |             |
-| `BarStyle`                  | `*Style`        |             |
-| `IsActive`                  | `bool`          |             |
+| Name                        | Type            | Description                                                                         |
+| --------------------------- | --------------- | ----------------------------------------------------------------------------------- |
+| `Title`                     | `string`        | Title of the progress bar                                                           |
+| `Total`                     | `int`           | Total amount of steps                                                               |
+| `Current`                   | `int`           | Current amount of steps                                                             |
+| `BarCharacter`              | `string`        | Character that should be used for the bar filling                                   |
+| `LastCharacter`             | `string`        | Las character of the progress bar                                                   |
+| `ElapsedTimeRoundingFactor` | `time.Duration` | Factor that determines how the time should be rounded (seconds, milliseconds, etc.) |
+| `BarFiller`                 | `string`        | Character that is used when the bar has not yet reached its point                   |
+| `MaxWidth`                  | `int`           | Maximum width of the progress bar                                                   |
+| `ShowElapsedTime`           | `bool`          | Sets if the elapsed time should be displayed                                        |
+| `ShowCount`                 | `bool`          | Sets if the current and total amount of steps should be displayed                   |
+| `ShowTitle`                 | `bool`          | Sets if the title should be displayed                                               |
+| `ShowPercentage`            | `bool`          | Sets if the current percentage should be displayed                                  |
+| `RemoveWhenDone`            | `bool`          | Sets if the progress bar should be removed when `Stop()` is called                  |
+| `TitleStyle`                | `*Style`        | Style of the title                                                                  |
+| `BarStyle`                  | `*Style`        | Style of the progress bar itself                                                    |
+| `IsActive`                  | `bool`          | True when the progress bar was started but not yet stopped                          |
 
 ### Using Options
 
