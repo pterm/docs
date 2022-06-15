@@ -60,3 +60,11 @@ This printer implements the `LivePrinter` interface.
 | `Stop()`         | Returns itself and errors                    |
 | `GenericStart()` | Returns the started `LivePrinter` and errors |
 | `GenericStop()`  | Returns the stopped `LivePrinter` and errors |
+
+## Full Specification
+
+{% hint style="info" %}
+pkg.go.dev contains the full specification for this printer and more technical descriptions.
+{% endhint %}
+
+{% embed url="https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter" %}

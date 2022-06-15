@@ -16,3 +16,11 @@ PTerm exposes a `LivePrinter` interface.
 | `Stop()`         | Returns itself and errors                    |
 | `GenericStart()` | Returns the started `LivePrinter` and errors |
 | `GenericStop()`  | Returns the stopped `LivePrinter` and errors |
+
+### Full Specification
+
+{% hint style="info" %}
+pkg.go.dev contains the full specification for this interface and a more technical description.
+{% endhint %}
+
+{% embed url="https://pkg.go.dev/github.com/pterm/pterm#LivePrinter" %}

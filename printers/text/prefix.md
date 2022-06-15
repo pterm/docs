@@ -56,3 +56,11 @@ This printer implements the `TextPrinter` interface.
 | `Printfln(format string, a ...interface{})`      | Prints to the terminal (or specified custom `Writer`), formatted according to a format specifier with a new line at the end                   |
 | `PrintOnError(a ...interface{})`                 | Prints every error which is not nil. If every error is nil, nothing will be printed. This can be used for simple error checking.              |
 | `PrintOnErrorf(format string, a ...interface{})` | Wraps every error which is not nil and prints it. If every error is nil, nothing will be printed. This can be used for simple error checking. |
+
+## Full Specification
+
+{% hint style="info" %}
+pkg.go.dev contains the full specification for this printer and more technical descriptions.
+{% endhint %}
+
+{% embed url="https://pkg.go.dev/github.com/pterm/pterm#PrefixPrinter" %}
