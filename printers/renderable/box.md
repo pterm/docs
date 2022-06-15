@@ -14,28 +14,28 @@ pterm.DefaultBox.Println("Hello, World!")
 
 ## Options
 
-| Name                      | Type        | Description |
-| ------------------------- | ----------- | ----------- |
-| `Title`                   | `string`    |             |
-| `TitleTopLeft`            | `bool`      |             |
-| `TitleTopRight`           | `bool`      |             |
-| `TitleTopCenter`          | `bool`      |             |
-| `TitleBottomLeft`         | `bool`      |             |
-| `TitleBottomRight`        | `bool`      |             |
-| `TitleBottomCenter`       | `bool`      |             |
-| `TextStyle`               | `*Style`    |             |
-| `VerticalString`          | `string`    |             |
-| `BoxStyle`                | `*Style`    |             |
-| `HorizontalString`        | `string`    |             |
-| `TopRightCornerString`    | `string`    |             |
-| `TopLeftCornerString`     | `string`    |             |
-| `BottomLeftCornerString`  | `string`    |             |
-| `BottomRightCornerString` | `string`    |             |
-| `TopPadding`              | `int`       |             |
-| `BottomPadding`           | `int`       |             |
-| `RightPadding`            | `int`       |             |
-| `LeftPadding`             | `int`       |             |
-| `Writer`                  | `io.Writer` |             |
+| Name                      | Type        | Description                                                |
+| ------------------------- | ----------- | ---------------------------------------------------------- |
+| `Title`                   | `string`    | Title of the box                                           |
+| `TitleTopLeft`            | `bool`      | Sets if the title should be displayed on the top left      |
+| `TitleTopRight`           | `bool`      | Sets if the title should be displayed on the top right     |
+| `TitleTopCenter`          | `bool`      | Sets if the title should be displayed on the top center    |
+| `TitleBottomLeft`         | `bool`      | Sets if the title should be displayed on the bottom left   |
+| `TitleBottomRight`        | `bool`      | Sets if the title should be displayed on the bottom right  |
+| `TitleBottomCenter`       | `bool`      | Sets if the title should be displayed on the bottom center |
+| `TextStyle`               | `*Style`    | Style of the content text                                  |
+| `VerticalString`          | `string`    | Char used for vertical lines                               |
+| `BoxStyle`                | `*Style`    | Style of the box                                           |
+| `HorizontalString`        | `string`    | Character har used for horizontal lines                    |
+| `TopRightCornerString`    | `string`    | Character used for the top right corner                    |
+| `TopLeftCornerString`     | `string`    | Character used for the top left corner                     |
+| `BottomLeftCornerString`  | `string`    | Character used for the bottom left corner                  |
+| `BottomRightCornerString` | `string`    | Character used for the bottom right corner                 |
+| `TopPadding`              | `int`       | Top space between content and box border                   |
+| `BottomPadding`           | `int`       | Bottom space between content and box border                |
+| `RightPadding`            | `int`       | Right space between content and box border                 |
+| `LeftPadding`             | `int`       | Left space between content and box border                  |
+| `Writer`                  | `io.Writer` | Custom writer                                              |
 
 ### Using Options
 
