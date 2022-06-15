@@ -57,3 +57,11 @@ This printer implements the `RenderablePrinter` interface.
 | ----------- | ----------------------------------------------------- |
 | `Render()`  | Prints to the terminal or uses the specified `Writer` |
 | `Srender()` | Returns the rendered string                           |
+
+## Full Specification
+
+{% hint style="info" %}
+pkg.go.dev contains the full specification of this printer and more technical descriptions.
+{% endhint %}
+
+{% embed url="https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter" %}
