@@ -5,7 +5,11 @@
 
 ## 📚 Printers
 
-* [Interactive](printers/interactive.md)
+* [Interactive](printers/interactive/README.md)
+  * [Confirm](printers/interactive/confirm.md)
+  * [TextInput](printers/interactive/textinput.md)
+  * [Select](printers/interactive/select.md)
+  * [Multiselect](printers/interactive/multiselect.md)
 * [Live Printers](printers/live/README.md)
   * [Area](printers/live/area.md)
   * [Progressbar](printers/live/progressbar.md)
@@ -37,7 +41,7 @@
 
 ## 🔰 Tutorials
 
-* [Using Printer Options](tutorials/using-printer-options.md)
+* [Configuring Printers](tutorials/configuring-printers.md)
 * [Using PTerm's Debug Mode](tutorials/using-pterms-debug-mode.md)
 
 ## 💙 Contributing

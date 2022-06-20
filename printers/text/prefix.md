@@ -30,8 +30,8 @@ pterm.Fatal.Println("Hello, World!")                                            
 
 ### Using Options
 
-{% content-ref url="../../tutorials/using-printer-options.md" %}
-[using-printer-options.md](../../tutorials/using-printer-options.md)
+{% content-ref url="../../tutorials/configuring-printers.md" %}
+[configuring-printers.md](../../tutorials/configuring-printers.md)
 {% endcontent-ref %}
 
 ## Methods
