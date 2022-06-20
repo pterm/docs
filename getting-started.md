@@ -60,8 +60,8 @@ Interactive printers respond to user input. Similar to live printers, interactiv
 
 If you need a printer, which a user can interact with, look here:
 
-{% content-ref url="printers/interactive/" %}
-[interactive](printers/interactive/)
+{% content-ref url="printers/interactive.md" %}
+[interactive.md](printers/interactive.md)
 {% endcontent-ref %}
 
 #### Can be used for

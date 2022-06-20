@@ -4,6 +4,10 @@ description: This page documents the process of writing the PTerm docs
 
 # Writing Docs
 
+{% hint style="warning" %}
+This page is work in progress!
+{% endhint %}
+
 ## Writing Docs For Printers
 
 ### Layout

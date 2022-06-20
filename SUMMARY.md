@@ -5,7 +5,7 @@
 
 ## 📚 Printers
 
-* [Interactive](printers/interactive/README.md)
+* [Interactive](printers/interactive.md)
   * [Confirm](printers/interactive/confirm.md)
   * [TextInput](printers/interactive/textinput.md)
   * [Select](printers/interactive/select.md)
@@ -41,7 +41,7 @@
 
 ## 🔰 Tutorials
 
-* [Configuring Printers](tutorials/configuring-printers.md)
+* [Configuring Printers](tutorials/using-printer-options.md)
 * [Using PTerm's Debug Mode](tutorials/using-pterms-debug-mode.md)
 
 ## 💙 Contributing

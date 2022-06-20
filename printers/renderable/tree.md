@@ -32,8 +32,8 @@ pterm.DefaultTree.WithRoot(putils.NewTreeFromLeveledList(pterm.LeveledList{
 
 ### Using Options
 
-{% content-ref url="../../tutorials/configuring-printers.md" %}
-[configuring-printers.md](../../tutorials/configuring-printers.md)
+{% content-ref url="../../tutorials/using-printer-options.md" %}
+[using-printer-options.md](../../tutorials/using-printer-options.md)
 {% endcontent-ref %}
 
 ## Methods
