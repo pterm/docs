@@ -5,17 +5,17 @@
 ## Basic Usage
 
 ```go
-result, _ := pterm.DefaultInteractiveConfirm.Show("Are you sure?")
-pterm.Println(result)
+result, _ := pterm.DefaultInteractiveTextInput.Show()
+pterm.Info.Printfln("You answered: %s", result)
 ```
 
 ## Options
 
-| Name              | Type        | Description                                          |
-| ----------------- | ----------- | ---------------------------------------------------- |
-| `TextStyle`   | `*Style` |   |
-| `DefaultText` | `string` |   |
-| `MultiLine`   | `bool` |   |
+| Name          | Type     | Description                                            |
+| ------------- | -------- | ------------------------------------------------------ |
+| `TextStyle`   | `*Style` | Style of the text prompt                               |
+| `DefaultText` | `string` | Default prompt text                                    |
+| `MultiLine`   | `bool`   | Sets if the input should accept multiple lines of text |
 
 ### Using Options
 
@@ -25,9 +25,9 @@ pterm.Println(result)
 
 ## Methods
 
-| Method           | Description                                  |
-| ---------------- | -------------------------------------------- |
-| `Show(text)`        | Displays the interactive confirm prompt                    |
+| Method       | Description                               |
+| ------------ | ----------------------------------------- |
+| `Show(text)` | Displays the interactive text input field |
 
 ## Full Specification
 

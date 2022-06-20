@@ -5,22 +5,22 @@
 ## Basic Usage
 
 ```go
-result, _ := pterm.DefaultInteractiveConfirm.Show("Are you sure?")
-pterm.Println(result)
+result, _ := pterm.DefaultInteractiveSelect.Show()
+pterm.Info.Printfln("You answered: %s", result)
 ```
 
 ## Options
 
-| Name              | Type        | Description                                          |
-| ----------------- | ----------- | ---------------------------------------------------- |
-| `TextStyle`     | `*Style` |   |
-| `DefaultText`   | `string` |   |
-| `Options`       | `[]string` |   |
-| `OptionStyle`   | `*Style` |   |
-| `DefaultOption` | `string` |   |
-| `MaxHeight`     | `int` |   |
-| `Selector`      | `string` |   |
-| `SelectorStyle` | `*Style` |   |
+| Name            | Type       | Description                                                                          |
+| --------------- | ---------- | ------------------------------------------------------------------------------------ |
+| `DefaultText`   | `string`   | Default prompt text                                                                  |
+| `TextStyle`     | `*Style`   | Style of the prompt text                                                             |
+| `Options`       | `[]string` | List of menu options                                                                 |
+| `OptionStyle`   | `*Style`   | Style of menu options                                                                |
+| `DefaultOption` | `string`   | The option that is selected by default                                               |
+| `MaxHeight`     | `int`      | Maximum number of visible options at once (the others can be accessed by scrolling)  |
+| `Selector`      | `string`   | Character of the selector                                                            |
+| `SelectorStyle` | `*Style`   | Style of the `Selector`                                                              |
 
 ### Using Options
 
@@ -30,9 +30,9 @@ pterm.Println(result)
 
 ## Methods
 
-| Method           | Description                                  |
-| ---------------- | -------------------------------------------- |
-| `Show(text)`        | Displays the interactive confirm prompt                    |
+| Method       | Description                          |
+| ------------ | ------------------------------------ |
+| `Show(text)` | Displays the interactive select menu |
 
 ## Full Specification
 
