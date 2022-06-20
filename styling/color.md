@@ -16,6 +16,10 @@ PTerms color type is safe to use on every terminal that supports colored text. I
 
 ## RGB Type
 
+{% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/coloring/fade-multiple-colors/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/coloring/fade-multiple-colors](https://github.com/pterm/pterm/tree/master/\_examples/coloring/fade-multiple-colors)
+{% endembed %}
+
 {% hint style="info" %}
 PTerms RGB type supports all 8 million colors of the RGB specification. It is not supported on older terminals, but PTerm will automatically convert it to the nearest ANSI color, if RGB is not supported.
 {% endhint %}
