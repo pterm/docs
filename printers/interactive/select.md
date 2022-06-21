@@ -7,7 +7,9 @@
 ## Basic Usage
 
 ```go
-result, _ := pterm.DefaultInteractiveSelect.Show()
+result, _ := pterm.DefaultInteractiveSelect.
+	WithOptions([]string{"a", "b", "c", "d"}).
+	Show()
 pterm.Info.Printfln("You answered: %s", result)
 ```
 
