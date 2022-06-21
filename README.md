@@ -4,10 +4,6 @@ description: Welcome to the documentation of PTerm - a TUI framework for Go
 
 # 👋 Welcome
 
-{% hint style="warning" %}
-We are currently rewriting the docs of PTerm. This site is work-in-progress!
-{% endhint %}
-
 ✨ PTerm is a modern TUI framework written in Go to beautify console output.
 
 It supports interactive printers, such as select menus and confirm prompts, as well as live printers, such as progress bars and spinners. It also features text printers for sections, headers, and info/warning/... messages. 🦕
