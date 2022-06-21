@@ -5,6 +5,8 @@ description: The bar chart printer can be used to show data in relation to each 
 # BarChart
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/barchart/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/barchart](https://github.com/pterm/pterm/tree/master/\_examples/barchart)
+{% endembed %}
 
 ## Basic Usage
 

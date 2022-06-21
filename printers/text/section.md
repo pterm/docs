@@ -5,6 +5,8 @@ description: The section printer can be used to separate sections
 # Section
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/section/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/section](https://github.com/pterm/pterm/tree/master/\_examples/section)
+{% endembed %}
 
 ## Basic Usage
 

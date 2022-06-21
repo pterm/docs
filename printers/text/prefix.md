@@ -5,6 +5,8 @@ description: The prefix printer can be used to display prefixed messages
 # Prefix
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/prefix/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/prefix](https://github.com/pterm/pterm/tree/master/\_examples/prefix)
+{% endembed %}
 
 ## Basic Usage
 

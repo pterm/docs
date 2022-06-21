@@ -5,6 +5,8 @@ description: The table printer can be used to display structured data
 # Table
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/table/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/table](https://github.com/pterm/pterm/tree/master/\_examples/table)
+{% endembed %}
 
 ## Basic Usage
 

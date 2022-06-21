@@ -5,6 +5,8 @@ description: The basic text printer can be used to print plain text
 # BasicText
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/basictext/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/basictext](https://github.com/pterm/pterm/tree/master/\_examples/basictext)
+{% endembed %}
 
 ## Basic Usage
 

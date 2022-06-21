@@ -7,6 +7,8 @@ description: >-
 # Spinner
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/spinner/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/spinner](https://github.com/pterm/pterm/tree/master/\_examples/spinner)
+{% endembed %}
 
 ## Basic Usage
 

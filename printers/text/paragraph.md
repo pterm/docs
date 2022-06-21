@@ -5,6 +5,8 @@ description: The paragraph printer can be used to write long paragraphs with wor
 # Paragraph
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/paragraph/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/paragraph](https://github.com/pterm/pterm/tree/master/\_examples/paragraph)
+{% endembed %}
 
 ## Basic Usage
 

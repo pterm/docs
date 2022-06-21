@@ -5,6 +5,8 @@ description: The area printer can be used to display dynamically updating live c
 # Area
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/area/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/area](https://github.com/pterm/pterm/tree/master/\_examples/area)
+{% endembed %}
 
 ## Basic Usage
 

@@ -1,6 +1,8 @@
 # Select
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/interactive_select/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/interactive\_select](https://github.com/pterm/pterm/tree/master/\_examples/interactive\_select)
+{% endembed %}
 
 ## Basic Usage
 

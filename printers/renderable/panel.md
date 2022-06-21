@@ -7,6 +7,8 @@ description: >-
 # Panel
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/panel/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/panel](https://github.com/pterm/pterm/tree/master/\_examples/panel)
+{% endembed %}
 
 ## Basic Usage
 

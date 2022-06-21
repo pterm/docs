@@ -1,6 +1,8 @@
 # TextInput
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/interactive_textinput/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/interactive\_textinput](https://github.com/pterm/pterm/tree/master/\_examples/interactive\_textinput)
+{% endembed %}
 
 ## Basic Usage
 

@@ -5,6 +5,8 @@ description: The center printer can be used to center text in the terminal
 # Center
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/center/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/center](https://github.com/pterm/pterm/tree/master/\_examples/center)
+{% endembed %}
 
 ## Basic Usage
 

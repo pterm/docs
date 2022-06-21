@@ -5,7 +5,7 @@
 
 ## 📚 Printers
 
-* [Interactive](printers/interactive.md)
+* [Interactive Printers](printers/interactive.md)
   * [Confirm](printers/interactive/confirm.md)
   * [TextInput](printers/interactive/textinput.md)
   * [Select](printers/interactive/select.md)

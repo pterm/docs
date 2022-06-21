@@ -1,6 +1,8 @@
 # Confirm
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/interactive_confirm/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/interactive\_confirm](https://github.com/pterm/pterm/tree/master/\_examples/interactive\_confirm)
+{% endembed %}
 
 ## Basic Usage
 

@@ -5,6 +5,8 @@ description: The box printer can be used to put content inside a box to highligh
 # Box
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/box/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/box](https://github.com/pterm/pterm/tree/master/\_examples/box)
+{% endembed %}
 
 ## Basic Usage
 

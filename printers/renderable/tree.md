@@ -5,6 +5,8 @@ description: The tree printer can be used to display a hierarchy
 # Tree
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/tree/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/tree](https://github.com/pterm/pterm/tree/master/\_examples/tree)
+{% endembed %}
 
 ## Basic Usage
 

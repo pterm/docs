@@ -5,6 +5,8 @@ description: The bullet list printer can be used to display a bullet list
 # BulletList
 
 {% embed url="https://raw.githubusercontent.com/pterm/pterm/master/_examples/bulletlist/demo/animation.svg" %}
+[https://github.com/pterm/pterm/tree/master/\_examples/bulletlist](https://github.com/pterm/pterm/tree/master/\_examples/bulletlist)
+{% endembed %}
 
 ## Basic Usage
 
